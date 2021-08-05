@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap'); /* Font for the main bits -Poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap');
+/* Jack Jack intro style */
+
+body{
+    background-color: #0c0b0b;
+    font-family:"Poppins";
+    margin:1rem;
+    margin-right:0;
+}
+.jj{
+    display: flex;
+}
+.description-jj {
+    background-color:#d1280a;
+    border-radius: 15px;
+    border:solid;
+    border-color: #cfc6c6;
+    font-family: 'Palette Mosaic', cursive;
+    color:#222224;
+    margin: 2rem;
+   
+}
+.tierone{
+    background-color:#eeca70;
+    border-radius: 5px;
+    border:solid;
+    border-color: #ffba08;
+    margin-top: 1rem;
+    width: 600px;
+    height: 220px;
+    border-width: 5px;
+  
+}
+.tiertwo{
+    background-color:#c3c3c3;
+    border-radius: 5px;
+    border:solid;
+    border-color: #1b1a1a;
+    margin-top: 1rem;
+    width: 600px;
+    height: 220px;
+    border-width: 5px;
+    color:000814;
+ 
+}
+
+.tierthree{
+    background-color:#f48c06;
+    border-radius: 5px;
+    border:solid;
+    border-color: #be8a4f;
+    margin-top: 1rem;
+    width: 600px;
+    height: 220px;
+    color:#000814;
+    border-width: 5px;
+
+}
+.tiers{
+    display: flex;
+    justify-content: space-around;
+   flex-direction: column;
+    align-items: stretch;
+    align-content: space-between;
+    margin: 1rem;
+    padding:1rem;
+    
+}
+.apianddescription{
+    background-color:#e9c46a;
+    border-radius: 15px;
+    border:solid;
+    border-color: #d90429;
+    color: #0c0b0c;
+    padding:0.5rem;
+    width: 35vh;
+    height: 35vw;
+
+}
+.updatedTotal{
+    background-color:#8d99ae;
+    border-radius: 55px;
+    border:solid;
+    border-color: #d90429;
+    margin: 1rem;
+    color: #0f0f0f;
+    padding:1rem;
+    border-width: 5px;
+}
+
+button {
+    background-color:#8d99ae;
+    border-radius: 55px;
+    border:solid;
+    border-color: #ffb703;
+    margin: 1rem;
+    color: #0a0a0a;
+    padding:1rem;
+    border-width: 5px;
+}
+button:hover{
+    transform: scale(1.2);
+}
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    /* align-self: center; */
+    align-items: stretch;
+    align-content: space-between;
+    margin: 1rem; 
+
+}
+.wrappertwo{
+    background-color: #d1280a;
+    border-radius: 15px;
+    border:solid;
+    border-color: #ffb703;
+border-width: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+
+    align-content: space-between;
+    margin: 1rem; 
+    margin-top: 3rem; 
+    flex-direction: column;
+    padding:1rem;
+    width: 20vh;
+    height: 20vw;
+    color: #050505;
+
+}
